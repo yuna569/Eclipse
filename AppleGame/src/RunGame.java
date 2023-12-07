@@ -12,6 +12,8 @@ public class RunGame {
 		
 		do {
 			board.printBoard();
+			System.out.println("Board[0][0]: "+ board.Board[0][0]);
+			System.out.println("Board[9][9]: "+ board.Board[9][9]);
 			
 			int x1, y1, x2, y2;
 			

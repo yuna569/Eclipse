@@ -1,11 +1,13 @@
+import java.lang.*;
+import java.util.*;
 
 public class Test {
 
 	public static void main(String[] args) {
-		int x=2, y=10, z=0;
+		Calendar now = Calendar.getInstance();
 		
-		z = x++*2+--y-5+x*(y%2);
+		System.out.print(now.get(Calendar.MINUTE));
 		
-		System.out.print(z);
+		
 	}
 }
